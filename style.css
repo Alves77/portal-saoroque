@@ -1,0 +1,12 @@
+.navbar-custom {
+    background-color: purple;
+    padding: 15px;
+}
+
+.navbar-nav li {
+    margin-right: 1.8cm;
+  }
+
+.ul-custom {
+    margin-left: 7.5cm;
+}
