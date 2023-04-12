@@ -4,9 +4,13 @@
 }
 
 .navbar-nav li {
-    margin-right: 1.8cm;
+    margin-right: 0.5cm;
   }
 
 .ul-custom {
-    margin-left: 7.5cm;
+    margin-left: 3cm;
+}
+
+.carrossel-custom {
+    padding: 0.5cm;
 }
