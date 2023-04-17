@@ -26,6 +26,18 @@
     color: white;
 }
 
+.btn-purple {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #5a32a3;
+    border-color: #512da8;
+}
+
 
 /* Media queries adicionais */
 
@@ -91,4 +103,5 @@
         margin-bottom: 15px;
     }
 }
+
 /* fim das caixas da página história */
