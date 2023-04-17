@@ -38,6 +38,10 @@
     border-color: #512da8;
 }
 
+.custom-row {
+    gap: 2cm;
+}
+
 
 /* Media queries adicionais */
 
