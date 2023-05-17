@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal São Roque</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <!-- Barra de navegação-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-        <div class="container">
-            <a class="navbar-brand" href="#">Logo aqui</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ul-custom sm-ul-custom">
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="historia.html">HISTÓRIA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active ms-3" aria-current="page" href="hospedagem.html">HOSPEDAGEM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="gastronomia.html">GASTRONOMIA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="turismo.html">TURISMO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="sobre.html">SOBRE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-3" href="contato.html">CONTATO</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--Fim da barra de navegação-->
+<?php include 'header.php'; ?>
 
     <div class="container text-center">
         <img src="img/imghistoria2.png" class="w-70 sm-w-100 md-w-80 p-2">
@@ -166,39 +114,4 @@
         </div>
     </div>
 
-    <!--Footer-->
-    <footer class="bg-dark text-white text-center">
-        <div class="container py-4">
-            <div class="row ">
-                <div class="col-md-4">
-                    <div class="text-start">
-                        <h5>Informações de contato</h5>
-                        <p>Endereço: Rua ABC, 123 - São Paulo/SP</p>
-                        <p>Telefone: (11) 1234-5678</p>
-                        <p>Email: contato@meusite.com</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-start">
-                        <h5>Links úteis</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="index.html">Página Inicial</a></li>
-                            <li><a href="sobre.html">Sobre nós</a></li>
-                            <li><a href="termos.html">Termos de Uso</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                        </ul>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/imgfooter.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="bg-secondary text-center py-3">
-            <p>Todos os Direitos Reservados © 2023 | Por Doguinhos das Chamas da Perdição </p>
-        </div>
-    </footer>
-</body>
-
-</html>
+    <?php include 'footer.php'; ?>
